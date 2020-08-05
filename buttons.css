@@ -1,0 +1,86 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background: white;
+	color: white;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
+}
+.main-nav img {
+	position: relative;
+	height: 100px;
+	width: auto;
+	top: -450px;
+}
+.main-nav li {
+	text-decoration: none;
+	float: right;
+	list-style: none;
+	display: inline-block; /* THE LI PUSHED THEM TOGETHER */
+	margin-right: 30px;
+	padding-top: 0;
+	position: relative;
+	top: -450px;
+	font-size: 20px;
+}
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)) ,url(https://www.surveycto.com/wp-content/uploads/2018/04/ai-and-dev.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: center;
+}
+h2, p {
+	color: white;
+}
+h2 {
+	font-weight: 100;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 4px;
+}
+.center-box {
+	color: white;
+	text-align: center;
+	margin-top: 10%;
+}
+
+header a {
+	font-style: none;
+	text-decoration: none;
+}
+.btn-how {
+	background-color: red;
+	color: white;
+}
+.btn-does {
+	border: 1px solid white;
+	background-color: white;
+	color: black;
+}
+.btn:link, 
+.btn:visited {
+	display: inline-block;
+	padding: 10px 30px;
+	font-weight: 300;
+	text-decoration: none;
+	border-radius: 200px;
+	margin-top: 20px;
+	transition: background-color 2s;
+}
+.btn-does:hover,
+.btn-does:active {
+	background-color: rgb(238, 223, 204);
+}
+.row {
+	max-width: 1140px;
+	margin: 0 auto; /* row will now be centered*/
+}
+
+.row {
+	padding-top: 0;
+}
+.body h2 {
+	padding-top: 10%;
+}

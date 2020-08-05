@@ -1,0 +1,16 @@
+body {
+	background-image: url(https://wallpapercave.com/wp/1oSBpga.jpg);
+	background-size: cover;
+	font-family: Mountains of Christmas;
+	padding-top: 10%;
+}
+.elaine {
+	margin-left: 30%;
+}
+img {
+	float: left;
+	width: 30%;
+	transform: rotate(90deg);
+	border-radius: 20%;
+	margin-top: -15%;
+}

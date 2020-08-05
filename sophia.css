@@ -1,0 +1,15 @@
+body {
+	background-image: url(https://secure.img1-fg.wfcdn.com/im/82982841/resize-h600-w600%5Ecompr-r85/3109/31094940/Christmas+Wall+Art.jpg);
+	background-size: cover;
+	font-family: Mountains of Christmas;
+}
+.sophia {
+	margin-left: 30%;
+}
+img {
+	float: left;
+	width: 30%;
+	transform: rotate(90deg);
+	border-radius: 20%;
+	margin-top: -5%;
+}

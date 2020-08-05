@@ -1,0 +1,67 @@
+body {
+	background-image: url(https://linkbookmarking.com/wp-content/uploads/2018/08/high_quality_wallpaper_HD_1080_IDS_1032494-1200x675.jpg);
+	background-size: cover;
+	font-family: Mountains of Christmas;
+}
+h1, h3, h2, h4 {
+	color: white;
+}
+header {
+	background-image: linear-gradient(-90deg, red, green);
+}
+header::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+nav {
+	float: right;
+	padding-bottom: 20px;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+/* spaced out nav links */
+nav li {
+	display: inline-block;
+	margin-left: 70px;
+	padding-top: 25px;
+	position: relative;
+}
+/* made nav links white and took out link bars */
+nav ul li a {
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+}
+.container {
+	color: rgb(34, 153, 84);
+	display: inline-block;
+	margin-left: 20px;
+	position: relative;
+}
+nav a {
+	float: right;
+	list-style: none;
+	text-decoration: none;
+}
+
+nav a {
+	display: inline-block;
+	margin-left: 20px;
+}
+nav a:link,
+nav a:visited {
+	padding: 0; /* 	ADDS PADDING TO BORDER TEXT */
+	color: #fff; /* CHANGES TEXT TO WHITE */
+	text-decoration: none; /* GETS RID OF UNDERLINE */
+	font-size: 125%; /* CHANGES TEXT SIZE */
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+}
+nav a:hover,
+nav a:active {
+	border-bottom: 2px solid #e67e22;
+}

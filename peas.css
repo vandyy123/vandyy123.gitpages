@@ -1,0 +1,31 @@
+body {
+	background-image: url(https://gallery.yopriceville.com/var/albums/Backgrounds/Red_Christmas_Background_with_Ornaments.jpg?m=1399676400);
+	background-size: cover;
+	font-family: Mountains of Christmas
+}
+h2, h1, h3, h4, p, strong {
+	color: white;
+	font-family: Mountains of Christmas
+
+}
+h1 {
+	padding-top: 100px
+}
+hr {
+	width: 400px;
+	border: ;
+}
+.peas {
+	margin-left: 30%;
+}
+.pea2 {
+	margin-top: 35%;
+	margin-right: 5%;
+}
+img {
+	float: left;
+	width: 30%;
+	transform: rotate(90deg);
+	border-radius: 20%;
+	margin-top: -15%;
+}
